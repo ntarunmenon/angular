@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Photo App</title>
+</head>
+
+<body ng-app>  
+  
+  <div>1 + 1 = {{1+1}}</div>
+  
+  <div data-ng-controller="MainController">
+	  <div data-ng-repeat="user in users">
+	  		<h3>{{user.name}}</h3>
+	  		<p>{{user.description}}<p>
+	  </div>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+  <script src="MainController.js"></script>
+</body>
+
+</html>
