@@ -5,10 +5,12 @@ function MainController($scope) {
   $scope.users = [
                   {
                 	  name:'Arun Menon',
-                	  description:'Mine'
+                	  description:'Mine',
+                	  house:'house1'
                     },
                     {
                     	name:'Sherlock',
-                  	  	description:'Sherlocks'
+                  	  	description:'Sherlocks',
+                  	  house:'house2'
                     }];
 }

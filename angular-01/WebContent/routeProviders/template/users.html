@@ -1,0 +1,9 @@
+<div data-ng-repeat="user in users" ng-switch="user.house">
+	  		<h3>{{user.name}}</h3>
+	  		<p>{{user.description | uppercase}}<p>
+	  		<p>{{user.house}}<p>
+	  		<img alt=""  HEIGHT=50 WIDTH=50 src="http://googledrive.com/host/0Bz6MIjSA3u5MSDNwcmNDYWVOdms/images/water1.jpg" data-ng-switch-when="house1">
+	  		<img alt=""  HEIGHT=50 WIDTH=50 src="http://googledrive.com/host/0Bz6MIjSA3u5MSDNwcmNDYWVOdms/images/mountains1.jpg" data-ng-switch-when="house2">
+	  		<input type="text" ng-model="user.description">
+	  		
+</div>
