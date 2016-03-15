@@ -1,0 +1,37 @@
+d24b057affc68b8927fb7967f15e2ded896f38e1e038e12f298dadbd669f3607
+
+
+1. Call the Request using the following Link.
+----------------------------------------------------
+
+https://trakt.tv/oauth/authorize?client_id=8c6812fed77d27d9d83063ed4cd8c28b15fa0cb79fffc0f405ac57bc57ab1b68&redirect_uri=http%3A%2F%2Flocalhost%3A8081%2Fredirecturl&response_type=code
+
+
+2. Extract the Code from request parameter and then 
+-----------------------------------------------------------
+
+
+https://api-v2launch.trakt.tv/oauth/token
+
+{"code": "d24b057affc68b8927fb7967f15e2ded896f38e1e038e12f298dadbd669f3607", "client_id": "8c6812fed77d27d9d83063ed4cd8c28b15fa0cb79fffc0f405ac57bc57ab1b68", "client_secret": "009a46551455da26285890ea5ef7575697cfb006e23c70d3109afbbe7cc9ac56", "redirect_uri": "http://localhost:8081/redirecturl", "grant_type": "authorization_code"}
+
+
+Response
+-------------
+
+{
+  "access_token": "4d5a84a4f506dc1d78b306d6b91429e6a282bd6ac464b3dd6eb9208c4894a065",
+  "token_type": "bearer",
+  "expires_in": 7776000,
+  "refresh_token": "f0798d3aead77ba3c59339df621fcaa9833d7cf43fb9507c84ee004ebcfc463f",
+  "scope": "public",
+  "created_at": 1457335973
+}
+
+
+3. 
+
+
+
+
+
